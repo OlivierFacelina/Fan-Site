@@ -61,6 +61,8 @@ body, html {
     white-space: nowrap;
     text-transform: uppercase;
     color: #04BBFF;
+    letter-spacing: 0.5em;
+    margin-top: 16%;
 }
 
 .image {
