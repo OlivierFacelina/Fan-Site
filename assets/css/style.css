@@ -124,10 +124,9 @@ body, html {
     background: url('/assets/images/video.png') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200vh; 
+    height: 120vh; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     /* margin-top: -46px; */
 }
@@ -162,6 +161,10 @@ body, html {
     padding-bottom: 5%;
   }
 
+  .video {
+    margin-top: -4vh;
+  }
+
   /* .description{
     color: white;
     display: flex;
@@ -178,6 +181,7 @@ body, html {
     width: 100%;
     height: 240%; 
     position: relative;
+    margin-top: -2vh;
 }
 
 .discography .introduction {
@@ -197,20 +201,8 @@ body, html {
     width: 100%;
 }
 
-/** ----------- RESPONSIVE ---------- */
+/** ----------- FOOTER ---------- */
 
-/* Version tablettes */
-/* @media screen and (max-width: 1024px) {
-    .background-image {
-        background-size: 100% auto;
-    }
-} */
-
-/* Version mobiles */
-/* @media screen and (max-width: 768px) {
-    .background-image {
-        background-size: 100% 100%;
-        background-position: center;
-        height: auto; 
-    }
-} */
+footer {
+    background-color: #0594D0;
+}
