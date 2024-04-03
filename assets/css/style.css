@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+.header {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    /* position: static; */
+    /* background-color: #0594D0; */
+}
+
+.navbar ul {
+    gap: 20vh;
+}
+  
+.background-image {
+    background: url('/assets/images/background.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.background-image2 {
+    background: url('/assets/images/video.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200vh; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -46px;
+}
+
+.background-image3 {
+    background: url('/assets/images/biography.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -14px;
+}
+
+.gender {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #04BBFF;
+}
+
+.image {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    font-size: 2em;
+}
+
+.actors {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+}
+
+.group_name{
+    margin-bottom: 7vh;
+}
+
+.group_name h1{
+    position: relative; 
+    font-size: 120px;
+    text-align: center;
+    color: #b8ddfe;
+}
+
+.group_name h1::before,
+.group_name h1::after {
+    content: ''; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
+    height: 10px;
+    background-color: #b8ddfe; 
+}
+
+.group_name h1::before {
+    top: 0;
+    margin-top: 3vh;
+}
+
+.group_name h1::after {
+    bottom: 0
+}
+
+.date{
+    color: white;
+    display: flex;
+    margin-top: -39em;
+    margin-left: 2em;
+}
+
+.lyrics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: -40em;
+    margin-top: 44em;
+    letter-spacing: 0.5em;
+
+}
+.carousel-inner {
+    background-color: #090d3f;
+  }
+  
+  .carousel-item {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .carousel-itemimage {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .carousel-itemh1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .description{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -11em;
+    margin-left: 5em;
+  }
