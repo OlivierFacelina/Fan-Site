@@ -17,6 +17,8 @@ body, html {
 .navbar ul {
     gap: 20vh;
 }
+
+/* ---- Biography ----- */
   
 .background-image {
     background: url('/assets/images/background.png') no-repeat;
@@ -27,26 +29,29 @@ body, html {
     justify-content: flex-start;
     align-items: center;
 }
-.background-image2 {
-    background: url('/assets/images/video.png') no-repeat;
+
+.biography {
+    /* background: url('/assets/images/biography.png') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200vh; 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: -46px;
+    height: 100vh;  */
+    color: white;
+    background-color: #007198;
 }
 
-.background-image3 {
-    background: url('/assets/images/biography.png') no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh; 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: -14px;
+.date-container {
+    position: relative;
+}
+
+.date-container::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px; /* Largeur de la barre verticale */
+    height: 600px; /* Hauteur de la barre verticale */
+    background-color: white; /* Couleur de la barre verticale */
 }
 
 .gender {
@@ -105,11 +110,25 @@ body, html {
     bottom: 0
 }
 
-.date{
+/* .date{
     color: white;
     display: flex;
     margin-top: -39em;
     margin-left: 2em;
+} */
+
+/* ------- Carousel -------- */
+
+.background-image2 {
+    background: url('/assets/images/video.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -46px; */
 }
 
 .lyrics{
@@ -117,8 +136,6 @@ body, html {
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-left: -40em;
-    margin-top: 44em;
     letter-spacing: 0.5em;
 
 }
@@ -130,6 +147,7 @@ body, html {
     color: white;
     font-size: 15px;
     text-align: center;
+    padding-top: 5%;
     padding-bottom: 5%;
   }
   
@@ -143,11 +161,11 @@ body, html {
     padding-bottom: 5%;
   }
 
-  .description{
+  /* .description{
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: -11em;
     margin-left: 5em;
-  }
+  } */
