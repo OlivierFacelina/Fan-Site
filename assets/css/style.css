@@ -11,8 +11,11 @@ body, html {
 
 .navbar {
     /* position: static; */
-    background-color: #0594D0;
-    opacity: 0.5;
+    /* background-color: #0594D0; */
+}
+
+.navbar ul {
+    gap: 20vh;
 }
   
 .background-image {
@@ -30,7 +33,7 @@ body, html {
     text-orientation: upright;
     white-space: nowrap;
     text-transform: uppercase;
-    color: white;
+    color: #04BBFF;
 }
 
 .image {
@@ -58,6 +61,7 @@ body, html {
     position: relative; 
     font-size: 120px;
     text-align: center;
+    color: #b8ddfe;
 }
 
 .group_name h1::before,
@@ -68,7 +72,7 @@ body, html {
     transform: translate(-50%, -50%);
     width: 33%;
     height: 10px;
-    background-color: #0594D0; 
+    background-color: #b8ddfe; 
 }
 
 .group_name h1::before {
