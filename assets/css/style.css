@@ -49,9 +49,11 @@ body, html {
     justify-content: center;
     gap: 12vw;
 }
+
 .group_name{
-    margin-bottom:7vh ;
+    margin-bottom: 7vh;
 }
+
 .group_name h1{
     position: relative; 
     font-size: 120px;
@@ -71,7 +73,7 @@ body, html {
 
 .group_name h1::before {
     top: 0;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 .group_name h1::after {
