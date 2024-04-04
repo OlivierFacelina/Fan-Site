@@ -143,7 +143,7 @@ header {
     background: url('/assets/images/video.png') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 150vh; 
+    height: 190vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,11 +159,8 @@ header {
     font-family: "Bebas Neue", sans-serif;
     font-size: 24px;
 }
-.carousel-inner {
-    background-color: #090d3f;
-  }
-  
-  .carousel-item {
+
+.carousel-item {
     color: white;
     font-size: 15px;
     text-align: center;
@@ -171,26 +168,30 @@ header {
     padding-bottom: 5%;
   }
   
-  .carousel-itemimage {
+.carousel-itemimage {
     padding-top: 5%;
     padding-bottom: 5%;
   }
   
-  .carousel-itemh1 {
+.carousel-itemh1 {
     padding-top: 5%;
     padding-bottom: 5%;
-  }
+}
 
-  .video {
+.carousel p {
+    color: white;
+}
+
+.video {
     margin-top: -4vh;
   }
 
-  .video h2 {
+.video h2 {
     color: white;
     font-family: "Bebas Neue", sans-serif;
   }
 
-  .description{
+.description{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -360,6 +361,11 @@ footer h6 {
 
     .background-image2 {
         background: none;
+        height: 160vh;
+    }
+
+    .carousel p {
+        color: black;
     }
 
     .lyrics {
