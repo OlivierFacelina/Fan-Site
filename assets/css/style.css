@@ -173,6 +173,10 @@ body, html {
     margin-top: -4vh;
   }
 
+  .video h2 {
+    color: white;
+  }
+
   .description{
     display: flex;
     justify-content: space-around;
@@ -278,6 +282,10 @@ footer a {
         height: 50vh;
     }
 
+    .background-image2 {
+        height: 110vh;
+    }
+
     .background-image3 {
         display: block;
         text-align: center;
@@ -313,7 +321,7 @@ footer a {
     }
 
     .discography {
-        height: 480vh;
+        height: 450vh;
         background: none;
     }
 
@@ -323,6 +331,23 @@ footer a {
 
     .video {
         margin-top: 30vh;
+    }
+
+    .video h2 {
+        color: black;
+    }
+
+    .background-image2 {
+        background: none;
+    }
+
+    .lyrics {
+        color: black;
+        display: block;
+    }
+
+    .lyrics p {
+        text-align: center;
     }
 
 }
