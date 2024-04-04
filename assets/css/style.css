@@ -4,10 +4,8 @@ body, html {
     height: 100%;
     overflow-x: hidden;
 }
-  
-.header {
-    width: 100%;
-    height: 100vh;
+
+header {
 }
 
 .navbar {
@@ -17,6 +15,8 @@ body, html {
 }
 
 .navbar ul {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
     gap: 20vh;
 }
 
@@ -42,12 +42,19 @@ body, html {
     height: 100vh;
 }
 
+.biography .title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+}
+
 .desc-image img {
     width: 50vw;
 }
 
 .date-container {
     position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
 }
 
 .date-container::after {
@@ -67,8 +74,10 @@ body, html {
     white-space: nowrap;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     margin-top: 16%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
 }
 
 .image {
@@ -86,6 +95,8 @@ body, html {
     display: flex;
     justify-content: center;
     gap: 12vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
 }
 
 .group_name{
@@ -145,7 +156,8 @@ body, html {
     align-items: center;
     color: white;
     letter-spacing: 0.5em;
-
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
 }
 .carousel-inner {
     background-color: #090d3f;
@@ -175,6 +187,7 @@ body, html {
 
   .video h2 {
     color: white;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .description{
@@ -196,18 +209,21 @@ body, html {
 
 .discography h2 {
     color: white;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .discography .introduction {
     text-orientation: upright;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.35rem;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .discography .conclusion {
     letter-spacing: 1.5rem;
     margin-top: 10vh;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .album {
@@ -226,6 +242,11 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer h6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
 }
 
 /** ----------- RESPONSIVE ---------- */
